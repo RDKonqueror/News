@@ -5,7 +5,7 @@ const Entertainment = () => {
   const [content, setContent] = useState([]);
 
   const getData = () => {
-    fetch('https://gnews.io/api/v4/search?q=entertainment&token=86ba322e54003d54ce77bd41e82e527f').then(function (response) {
+    fetch('https://gnews.io/api/v4/search?q=entertainment&token={API TOKEN}').then(function (response) {
       return response.json();
     })
       .then(function (data) {
