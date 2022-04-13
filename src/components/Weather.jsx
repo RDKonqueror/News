@@ -7,7 +7,7 @@ const Weather = () => {
 
     const getWeatherData = () => {
         // lat 22.5726723 lon 88.3638815
-        fetch('https://api.openweathermap.org/data/2.5/weather?lat=22.5726723&lon=88.3638815&appid=987078d57bb59933aac3a2202dcbd209&units=metric').then(function (response) {
+        fetch('https://api.openweathermap.org/data/2.5/weather?lat=22.5726723&lon=88.3638815&appid={API TOKEN}&units=metric').then(function (response) {
             // console.log(response)
             return response.json();
         })
