@@ -5,7 +5,7 @@ const Headlines = () => {
     const [content, setContent] = useState([]);
 
     const getData = () => {
-        fetch('https://gnews.io/api/v4/top-headlines?token=86ba322e54003d54ce77bd41e82e527f').then(function (response) {
+        fetch('https://gnews.io/api/v4/top-headlines?token={API TOKEN}').then(function (response) {
             return response.json();
         })
             .then(function (data) {
