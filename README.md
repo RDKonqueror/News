@@ -14,8 +14,8 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-[ReactJS](https://reactjs.org/)
-[GNews API](https://gnews.io/)
+[ReactJS](https://reactjs.org/)<br/>
+[GNews API](https://gnews.io/)<br />
 [OpenWeatherMap API](https://openweathermap.org/)
 
 
