@@ -3,7 +3,7 @@
 <div align="center">
   A news website
   <h3>
-    <a href="">
+    <a href="https://news-cbe48.firebaseapp.com/">
       See Demo
     </a>
   </h3>
