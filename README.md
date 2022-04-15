@@ -1,7 +1,7 @@
 <h1 align="center">News</h1>
 
 <div align="center">
-  A news website
+  A news web application
   <h3>
     <a href="https://news-cbe48.firebaseapp.com/">
       See Demo
